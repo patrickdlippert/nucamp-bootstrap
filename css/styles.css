@@ -58,3 +58,11 @@ a, a:hover {
   .carousel {
       border: solid #5637DD;
   }
+
+  /* Custom style for red pause/play buttons in carousel */
+  #carouselButton {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 100;  /* Guarantees buttons are on top of images */
+  }
