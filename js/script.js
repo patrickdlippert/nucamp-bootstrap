@@ -14,4 +14,13 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
+
+    // Using jQuery to activate modal Reservation and Login forms
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal("show");    
+      });
+      $("#loginButton").click(function(){
+        $("#loginModal").modal("show");    
+      });
+  
 });

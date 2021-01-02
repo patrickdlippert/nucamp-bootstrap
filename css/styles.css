@@ -54,3 +54,11 @@ a, a:hover {
   bottom: 0;
   z-index: 100;
   /* Guarantees buttons are on top of images */ }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
